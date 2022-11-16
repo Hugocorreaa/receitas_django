@@ -1,4 +1,4 @@
-{% extends 'base.html' %}
+{% extends 'receitas/base.html' %}
 {% load static %}
 {% block content %}
 
@@ -25,7 +25,7 @@
         </div>
     </div>
 
-    {% include 'partials/menu.html'%}
+    {% include 'receitas/partials/_menu.html'%}
 
 
         <!-- Receipe Post Search -->
@@ -97,9 +97,5 @@
                     </div>
                 </div>
                 <!-- Ingredientes -->
-
-    <!-- ##### Footer Area Start ##### -->
-    {% include 'partials/footer.html'%}
-    <!-- ##### Footer Area End ##### -->
 
 {% endblock %}

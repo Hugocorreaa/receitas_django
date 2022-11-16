@@ -1,4 +1,4 @@
-{% extends 'base.html' %}
+{% extends 'receitas/base.html' %}
 {% load static %}
 {% block content %}
 
@@ -25,7 +25,7 @@
         </div>
     </div>
 
-    {% include 'partials/menu.html'%}
+    {% include 'receitas/partials/_menu.html'%}
 
     <!-- ##### Best Receipe Area Start ##### -->
     <section class="best-receipe-area">
@@ -51,9 +51,5 @@
         </div>
     </section>
     <!-- ##### Best Receipe Area End ##### -->
-
-    <!-- ##### Footer Area Start ##### -->
-    {% include 'partials/footer.html'%}
-    <!-- ##### Footer Area Ends ##### -->
 
 {% endblock  %}
